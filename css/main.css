@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url(../Ubuntu/Ubuntu-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: ubuntu;
+}
+
+.container {
+  text-align: center;
+  border-radius: 10px;
+  margin: 2rem 0;
+  width: 30%;
+}
+
+.container .upper {
+  background: #2c3a47;
+  color: #fff;
+  padding: 3rem 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.container .upper .img {
+  padding: 8px;
+}
+
+.container .upper .img img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.container .upper h1 {
+  padding: 0.8rem;
+  font-size: 28px;
+}
+
+.container .upper p {
+  font-size: 20px;
+  color: #e66767;
+}
+
+.container .upper i {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .upper i:hover {
+  color: #e66767;
+}
+
+.container .upper a {
+  border: 2px solid #e66767;
+  color: #e66767;
+  padding: 12px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.container .upper a:hover {
+  background: #e66767;
+  color: #fff;
+}
+
+.container .lower {
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 3.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .lower ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.container .lower ul li {
+  margin-left: 3.2rem;
+}
+
+.container .lower ul li:first-child {
+  border: none;
+}
+
+.container .lower ul li p {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.container .lower ul li span {
+  color: #e66767;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: initial;
+  padding-top: 0;
+}
+/*# sourceMappingURL=main.css.map */
